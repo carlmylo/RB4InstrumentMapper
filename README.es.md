@@ -1,8 +1,8 @@
 ﻿# RB4InstrumentMapper
 
-Un programa que mapea y convierte datos de paquetes de instrumentos hechos para Xbox One hacía controles virtuales, para usar en juegos como [Clone Hero](https://clonehero.net/).
+Un programa que interpreta y convierte datos de paquetes de instrumentos hechos para Xbox One a controles virtuales, para usar en juegos como [Clone Hero](https://clonehero.net/).
 
-![RB4InstrumentMapper main menu](Docs/Images/Readme/program-screenshot.png "RB4InstrumentMapper main menu")
+![Pantalla principal de RB4InstrumentMapper](Docs/Images/Readme/program-screenshot.png "Pantalla principal de RB4InstrumentMapper")
 
 Todos los instrumentos de Xbox One funcionan (guitarras/baterías de RB4, guitarras de GHL), y también el adaptador de RB4 inalámbrico para instrumentos anteriores (RB4 Wireless Legacy Adapter.)
 
@@ -21,7 +21,7 @@ Todos los instrumentos de Xbox One funcionan (guitarras/baterías de RB4, guitar
 - [Usando guitarras de Guitar Hero Live o el adaptador de RB4 inalámbrico para instrumentos anteriores](#usando-guitarras-de-guitar-hero-live-o-el-adaptador-de-rb4-inal%C3%A1mbrico-para-instrumentos-anteriores-rb4-wireless-legacy-adapter)
   - [Configurando](#configurando-1)
   - [Usando](#usando-1)
-- [Configurando los Controles](#configurando-tus-instrumentos)
+- [Configurando tus Instrumentos](#configurando-tus-instrumentos)
   - [Clone Hero](#clone-hero)
   - [YARG](#yarg)
   - [GHWT: Definitive Edition](#ghwt-definitive-edition)
@@ -36,7 +36,7 @@ Todos los instrumentos de Xbox One funcionan (guitarras/baterías de RB4, guitar
 
 1. Descarga y instala RB4InstrumentMapper de [la pagina de pagina de publicaciones (Releases)](https://github.com/TheNathannator/RB4InstrumentMapper/releases).
 2. Descarga y configura [ViGEmBus](https://github.com/ViGEm/ViGEmBus/releases/latest) o [vJoy](https://github.com/jshafer817/vJoy/releases/latest) usando las guías abajo.
-   - ViGEmBus es recomendado porque es mas fácil para usar y no requiere configuración adicional. vJoy es una opcion alternativa por si tienes problemas con ViGEmBus.
+   - ViGEmBus es recomendado porque es mas fácil para usar y no requiere configuración adicional. vJoy es una opción alternativa por si tienes problemas con ViGEmBus.
    - Los dos se pueden instalar al mismo tiempo, pero RB4InstrumentMapper solo va usar uno.
 
 ### Configurando ViGEmBus
@@ -49,14 +49,13 @@ Todos los instrumentos de Xbox One funcionan (guitarras/baterías de RB4, guitar
 1. Descarga y instala [vJoy](https://github.com/jshafer817/vJoy/releases/latest).
 2. Después de descargar, abre el menú de Inicio, busca la carpeta llamada `vJoy` y abre `Configure vJoy` dentro de esa carpeta.
 3. Configura un dispositivo (Device) para cada uno de tus instrumentos usando estas opciones:
-   - [Number of Buttons](# Numero de botones): 16
-   - [POV Hat Switch: Continuous, POVs](# Switch de PDV: Seguido, PDVs): 1
+   - Number of Buttons: 16
+   - POV Hat Switch: Continuous, POVs: 1
    - Axes: `X`, `Y`, `Z`
 
    ![Captura de la configuración de vJoy](Docs/Images/Readme/vjoy-configuration.png "Captura de la configuración de vJoy")
 
-4. Click Apply.
-4. Haz click en [Apply](# Aplicar)
+4. Haz click en `Apply`
 5. ¡Eso es todo!
 
 ---
@@ -78,15 +77,15 @@ Todos los instrumentos de Xbox One funcionan (guitarras/baterías de RB4, guitar
 ![Jaguar de Rock Band 4](Docs/Images/Peripherals/rock-band-4-jaguar.png "Jaguar de Rock Band 4")
 ![Batería de Rock Band 4](Docs/Images/Peripherals/rock-band-4-drums.png "Batería de Rock Band 4")
 
-Para usar guitarras y baterías inalámbrica de Rock Band 4, vas a necesitar un receptor para controles inalámbricos de Xbox One. Las dos versiones oficiales se ven asi:
+Para usar guitarras y baterías inalámbrica de Rock Band 4, vas a necesitar un receptor para controles inalámbricos de Xbox One. Las dos versiones oficiales se ven así:
 
 ![Receptor de Xbox One, original](Docs/Images/Peripherals/xbox-one-receiver-gen-1.png "Receptor de Xbox One, original")
-![Receptor de Xbox One, revision](Docs/Images/Peripherals/xbox-one-receiver-gen-2.png "Receptor de Xbox One, revision")
+![Receptor de Xbox One, revisión](Docs/Images/Peripherals/xbox-one-receiver-gen-2.png "Receptor de Xbox One, revisión")
 
 - ¡*No* son iguales a los receptores inalámbricos de Xbox 360! Tienes que tener un receptor para controles inalámbricos de Xbox One (o solo "Xbox"), como los ejemplos arriba.
 - Los receptores que no son originales no están probados y no recibirán soporte técnico.
 
-Adicionalmente, las guitarras Jaguar ![Jaguar de Rock Band 4](Docs/Images/Peripherals/rock-band-4-jaguar-small.png "Jaguar de Rock Band 4") requieren una actualizacion de firmware para conectarse a receptores para controles inalámbricos de Xbox One.
+Adicionalmente, las guitarras Jaguar ![Jaguar de Rock Band 4](Docs/Images/Peripherals/rock-band-4-jaguar-small.png "Jaguar de Rock Band 4") requieren una actualización de firmware para conectarse a receptores para controles inalámbricos de Xbox One.
 
 
 - [Instrucciones (Ingles)](https://bit.ly/2UHzonU)
@@ -102,14 +101,14 @@ Para usar la Riffmaster, vas a necesitar su receptor dedicado, en la foto abajo:
 
 ### Usando
 
-1. En el menú desplegable de [`Controller Emulation Mode`](# Modo de emulación de control), selecciona el modo de emulación que quieres usar.
+1. En el menú desplegable de `Controller Emulation Mode`, selecciona el modo de emulación que quieres usar.
 
    ![Selección de Controller emulation mode](Docs/Images/Readme/controller-emulation-mode.png)
 
-2. Haz click en el botón de [`Start`](# Iniciar) para empezar a leer datos que va a mandar tu instrumento.
-3. Conecta tus instrumentos. Van estar detectados y funcionando hasta que presiones el botón de [`Stop`](# Parar) o cierres el programa.
-   - Los instrumentos deben de estar conectados antes o despues de presionar el botón de [`Start`](# Iniciar), la orden no importa.
-4. [Configura tus instrumentos en los juegos en los que los vas a usar](#mapping-your-controls)
+2. Haz click en el botón de `Start` para empezar a leer datos que va a mandar tu instrumento.
+3. Conecta tus instrumentos. Van estar detectados y funcionando hasta que presiones el botón de `Stop` o cierres el programa.
+   - Los instrumentos deben de estar conectados antes o después de presionar el botón de `Start`, la orden no importa.
+4. [Configura tus instrumentos en los juegos en los que los vas a usar](#configurando-tus-instrumentos)
 
 #### ¿Problemas emparejando?
 
@@ -117,7 +116,7 @@ Es posible que guitarras/baterías no se emparejan correctamente solo usando el 
 1. Entra a `Configuración` de Windows > `Dispositivos` > `Bluetooth y otros dispositivos`
 2. Haz click en `Agregar Bluetooth u otro dispositivo` y elije `Otro`.
 3. Presiona y sostén el botón de emparejar hasta que el botón de Xbox parpadee rapido.
-4. Elije [`Xbox compatible game controller`](# Control de juego compatible con Xbox) de la lista cuando aparezca.
+4. Elije `Xbox compatible game controller` de la lista cuando aparezca.
 5. Si eso no funciona, reinicia tu computadora y trata otra vez.
 
 ---
@@ -129,40 +128,40 @@ Es posible que guitarras/baterías no se emparejan correctamente solo usando el 
 
 ### Configurando
 
-Vas a necesitar instalar el controlador de WinUSB al receptor de Guitar Hero Live o el adaptador de RB4 inalámbrico para instrumentos anteriores (RB4 Wireless Legacy Adapter) antes de usarlos. Es posible usar RB4InstrumentMapper para instalarlo directamente, por el menú de [`Configure Devices`](# Configurar Dispositivos) en su menú principal:
+Vas a necesitar instalar el controlador de WinUSB al receptor de Guitar Hero Live o el adaptador de RB4 inalámbrico para instrumentos anteriores (RB4 Wireless Legacy Adapter) antes de usarlos. Es posible usar RB4InstrumentMapper para instalarlo directamente, por el menú de `Configure Devices` en su menú principal:
 
-1. Activa la opción [`Enable`](# Activar) bajo el grupo de `USB`, y luego haz click en [`Configure Devices`](# Configurar Dispositivos) abajo de eso.
+1. Activa la opción `Enable` bajo el grupo de `USB`, y luego haz click en `Configure Devices` abajo de eso.
 
    ![Recuadro para activar USB](Docs/Images/Readme/usb-checkbox.png)
 
 2. Encuentra el dispositivo que quieres usar en el menú del lado izquierdo.
    
-   ![WinUSB configuration, left side](Docs/Images/Readme/usb-configure-left.png)
+   ![Lado izquierdo de la configuración de WinUSB](Docs/Images/Readme/usb-configure-left.png)
 
-3. Haz click en [`Switch Driver`](# Cambiar Controlador) y espera para que se cambie el controlador. El dispositivo que estas modificando va a salir en el lado derecho cuando se complete esto.
+3. Haz click en `Switch Driver` y espera para que se cambie el controlador. El dispositivo que estas modificando va a salir en el lado derecho cuando se complete esto.
    
-   ![WinUSB configuration, right side](Docs/Images/Readme/usb-configure-right.png)
+   ![Lado derecho de la configuración de WinUSB](Docs/Images/Readme/usb-configure-right.png)
 
-   - Por favor toma en cuenta que cualquier juego que tenga soporte directo para estos dispositivos no va funcionar hasta que borres el controlador de WinUSB. Haz click en el botón de [`Revert Driver`](# Revertir Controlador) para revertir tus cambios para poder usar el dispositivo directamente.
+   - Por favor toma en cuenta que cualquier juego que tenga soporte directo para estos dispositivos no va funcionar hasta que borres el controlador de WinUSB. Haz click en el botón de `Revert Driver` para revertir tus cambios para poder usar el dispositivo directamente.
 
-Si tienes problemas con esta instalación, puedes tratar [instalar el controlador manualmente (en Ingles)](Docs/WinUSB/manual-winusb-install.md). Esto no es recomendando paro mayoría de los usuarios. Solo se debe usar esta alternativa si el menú de [`Configure Devices`](# Configurar Dispositivos) no funciona.
+Si tienes problemas con esta instalación, puedes tratar [instalar el controlador manualmente (en Ingles)](Docs/WinUSB/manual-winusb-install.md). Esto no es recomendando paro mayoría de los usuarios. Solo se debe usar esta alternativa si el menú de `Configure Devices` no funciona.
 - Esto también describe como [desinstalar manualmente (en Ingles)](Docs/WinUSB/manual-winusb-install.md#remove-winusb), en caso de que el dispositivo se quede con el controlador atorado y RB4InstrumentMapper para de detectarlo.
 
 ### Usando
 
-1. Activa la opción [`Enable`](# Activar) bajo el grupo de `USB`.
+1. Activa la opción `Enable` bajo el grupo de `USB`.
 
    ![Recuadro para activar USB](Docs/Images/Readme/usb-checkbox.png)
 
-2. **¡Asegúrate que instalaste [el controlador de WinUSB](url) en los dispositivos que quieres usar! ¡No serán detectados si no esta hecho!**
-3. En el menú desplegable de [`Controller Emulation Mode`](# Modo de emulación de control), selecciona el modo de emulación que quieres usar.
+2. **¡Asegúrate que instalaste [el controlador de WinUSB](#configurando-1) en los dispositivos que quieres usar! ¡No serán detectados si no esta hecho!**
+3. En el menú desplegable de `Controller Emulation Mode`, selecciona el modo de emulación que quieres usar.
 
    ![Selección de Controller emulation mode](Docs/Images/Readme/controller-emulation-mode.png)
 
-4. Haz click en el botón de [`Start`](# Iniciar) para empezar a leer datos que va a mandar tu instrumento.
-5. [Configura tus instrumentos en los juegos en los que los vas a usar](#mapping-your-controls).
+4. Haz click en el botón de `Start` para empezar a leer datos que va a mandar tu instrumento.
+5. [Configura tus instrumentos en los juegos en los que los vas a usar](#configurando-tus-instrumentos).
 
-Se va a detectar si instrumentos se conectan/desconectan automáticamente, pero no se van a mandar datos a los juegos hasta que presiones el botón de [`Start`](# Iniciar).
+Se va a detectar si instrumentos se conectan/desconectan automáticamente, pero no se van a mandar datos a los juegos hasta que presiones el botón de `Start`.
 
 Si tienes problemas con como se mandan los botones presiones o otras cosas raras, puedes tratar de desconectar y reconectar el receptor/cable. Desafortunadamente, la detección de estos dos tipos de dispositivos no esta completamente estable, así que es posible que no funcione perfectamente.
 
@@ -174,11 +173,11 @@ Ahora que RB4InstrumentMapper esta listo y corriendo, puedes configurar los cont
 
 ### Clone Hero
 
-Si estas usando una guitarra en el modo ViGEmBus, Clone Hero va a mapear todo automáticamente. No debes de tener que hacer ajustes manuales, al menos que estés usando una guitarra de Guitar Hero Live. En ese caso, vas a necesitar cambiar la configuración de [Whammy](# Palanca de tremolo) y de ladear.
+Si estas usando una guitarra en el modo ViGEmBus, Clone Hero va a mapear todo automáticamente. No debes de tener que hacer ajustes manuales, al menos que estés usando una guitarra de Guitar Hero Live. En ese caso, vas a necesitar cambiar la configuración de Whammy/Palanca de tremolo y de ladear.
 
 - La configuración automática también se va a aplicar a baterías, pero no va estar correcta porque esta diseñada para guitarras. Vas a necesitar cambiar la configuración que esta por defecto y ajustarla manualmente.
 
-Para baterias, modo vJoy, o si necesitas ajustar tus controles por otra razón: 
+Para baterías, modo vJoy, o si necesitas ajustar tus controles por otra razón: 
 
 1. Presiona espacio en el menú principal.
 
@@ -207,24 +206,24 @@ Consulta la [documentación oficial (en Ingles)](https://ghwt.de/wiki/#/wtde/bin
 
 ### RPCS3
 
-1. Para usar en RPCS3, usa la opción de [`ViGEmBus (RPCS3 compatibility)`](# ViGEmBus (Compatibilidad para RPCS3) bajo el menú desplegable de [`Controller Emulation Mode`](# Modo de emulación de control). Eso hace que RB4InstrumentMapper mande sus datos de tus instrumentos al emulador en una forma que no requiere hacer ajustes (o ajustes mínimos) en el emulador de RPCS3.
+1. Para usar en RPCS3, usa la opción de `ViGEmBus (RPCS3 compatibility)` bajo el menú desplegable de `Controller Emulation Mode`. Eso hace que RB4InstrumentMapper mande sus datos de tus instrumentos al emulador en una forma que no requiere hacer ajustes (o ajustes mínimos) en el emulador de RPCS3.
 
    ![Selección de Controller emulation mode](Docs/Images/Readme/controller-emulation-mode.png)
 
-2. Haz click en [Gamepad Configuration Menu](# Menú de configuración de mandos) en RPCS3.
+2. Haz click en `Pads` en RPCS3.
 
    ![Icono del menú de configuración de mandos RPCS3](Docs/Images/Readme/rpcs3-pads-icon.png)
 
-3. Cambiar [`Handlers`](# Manipuladores) a "XInput", selecciona tu instrumento bajo [`Devices`](# Dispositivos), y cambia [`Device Class`](# Clase de dispositivo) a "Rock Band - Guitar" si estas usando una guitarra o 'Rock Band - Drums' si estas usando una batería.
+3. Cambiar `Handlers` a "XInput", selecciona tu instrumento bajo `Devices` y cambia `Device Class` a "Rock Band - Guitar" si estas usando una guitarra o 'Rock Band - Drums' si estas usando una batería.
 
    ![RPCS3 Gamepad settings](Docs/Images/Readme/rpcs3-gamepad-settings.png)
 
-4. Repite para cada instrumento en las pestañas de [Player](# Jugador).
+4. Repite para cada instrumento en las pestañas de Player.
 5. Haz click en `Listo`.
 
 ## Registro de Paquetes
 
-Se puede usar RB4InstrumentMapper para registrar datos a un archivo para razones de depuración. Para hacer esto, activa [`Show Packets (for debugging)`](# Mostrar Paquetes (para depuración)) y [`Log packets to file`](# Registrar datos a archivo) y luego haz click en el botón de [`Start`](# Iniciar). Los datos de van a guardar en tu carpeta de Documentos. Asegúrate de incluirla cuando preguntes por ayuda o creas reportes de problemas con la interpretación de datos.
+Se puede usar RB4InstrumentMapper para registrar datos a un archivo para razones de depuración. Para hacer esto, activa `Show Packets (for debugging)` y `Log packets to file` y luego haz click en el botón de `Start`. Los datos de van a guardar en tu carpeta de Documentos. Asegúrate de incluirla cuando preguntes por ayuda o creas reportes de problemas con la interpretación de datos.
 
 Toma en cuenta que estas opciones son solo para depurar. Dejándolas activadas puede causar problemas con el rendimiento del programa.
 

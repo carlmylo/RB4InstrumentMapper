@@ -153,7 +153,7 @@ If you run into any issues with this process, you may try [installing the driver
    ![USB enable checkbox](Docs/Images/Readme/usb-checkbox.png)
 
 2. **Ensure you have [installed WinUSB](#setup-1) on the devices you want to use! They will not be recognized otherwise!**
-3. In the `Controller Type` dropdown, select the controller emulation mode you want to use.
+3. In the `Controller Emulation Mode` dropdown, select the controller emulation mode you want to use.
 
    ![Controller emulation mode selection](Docs/Images/Readme/controller-emulation-mode.png)
 
