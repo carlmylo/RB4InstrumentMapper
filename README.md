@@ -205,7 +205,20 @@ Refer to the [official documentation](https://ghwt.de/wiki/#/wtde/binding?id=bin
 
 ### RPCS3
 
-For RPCS3, use the `ViGEmBus (RPCS3 compatibility)` controller mode. This will change the mappings that RB4InstrumentMapper outputs so that little to no remapping is required to use instruments in RPCS3.
+1. For RPCS3, use the `ViGEmBus (RPCS3 compatibility)` controller mode. This will change the mappings that RB4InstrumentMapper outputs so that little to no remapping is required to use instruments in RPCS3.
+
+   ![Controller emulation mode selection](Docs/Images/Readme/controller-emulation-mode.png)
+
+2. Open the Gamepad Configuration Menu in RPCS3
+
+   ![RPCS3 Pads icon](Docs/Images/Readme/rpcs3-pads-icon.png)
+
+3. Change the `Handlers` to "XInput", pick your instrument under `Devices`, and set `Device Class` to "Rock Band - Guitar" if you're using a guitar or 'Rock Band - Drums' if you're using drums.
+
+   ![RPCS3 Gamepad settings](Docs/Images/Readme/rpcs3-gamepad-settings.png)
+
+4. Repeat for each connected device in the other Player tabs.
+5. Click `Done`.
 
 ## Packet Logs
 
